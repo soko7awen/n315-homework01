@@ -69,7 +69,7 @@ nav {
     width: 98vw;
     max-width: 1200px;
     min-height: 100vh;
-    padding: 0 10px;
+    padding: 0 10px 10px 10px;
     padding-top: var(--navbar-height);
     border-radius: 0 0 12.5px 12.5px;
     margin: 0 auto;
@@ -81,22 +81,23 @@ nav {
         width: fit-content;
         margin: 0 auto;
         margin-bottom: 20px;
-
-        .title, .site-title {
-            text-align: center;
-            font-size: 42px;
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
-            transform: scaleX(1.1);
-        }
-        .site-title {
-            font-size: 52px;
-            text-decoration: underline;
-        }
-        .subtitle {
-            line-height: 1;
-            font-style: italic;
-            font-weight: normal;
-        }
+    }
+    .title {
+        text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        transform: scaleX(1.1);
+    }
+    .page-title {
+        font-size: 42px;
+    }
+    .site-title {
+        font-size: 52px;
+        text-decoration: underline;
+    }
+    .subtitle {
+        line-height: 1;
+        font-style: italic;
+        font-weight: normal;
     }
 
     .separator {
@@ -137,6 +138,15 @@ nav {
                 margin: 0 auto;
             }
         }
+    }
+
+    .projects-flex {
+        display: flex;
+        width: 75%;
+        margin: 0 auto;
+        margin-top: 40px;
+        flex-wrap: wrap;
+        justify-content: center;
     }
 
     .project {

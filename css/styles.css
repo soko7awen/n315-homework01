@@ -63,7 +63,7 @@ nav ul li a {
   width: 98vw;
   max-width: 1200px;
   min-height: 100vh;
-  padding: 0 10px;
+  padding: 0 10px 10px 10px;
   padding-top: var(--navbar-height);
   border-radius: 0 0 12.5px 12.5px;
   margin: 0 auto;
@@ -76,17 +76,19 @@ nav ul li a {
   margin: 0 auto;
   margin-bottom: 20px;
 }
-.content .title-text .title, .content .title-text .site-title {
+.content .title {
   text-align: center;
-  font-size: 42px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   transform: scaleX(1.1);
 }
-.content .title-text .site-title {
+.content .page-title {
+  font-size: 42px;
+}
+.content .site-title {
   font-size: 52px;
   text-decoration: underline;
 }
-.content .title-text .subtitle {
+.content .subtitle {
   line-height: 1;
   font-style: italic;
   font-weight: normal;
@@ -122,6 +124,14 @@ nav ul li a {
 }
 .content .info .description p {
   margin: 0 auto;
+}
+.content .projects-flex {
+  display: flex;
+  width: 75%;
+  margin: 0 auto;
+  margin-top: 40px;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .content .project {
   width: 290px;
