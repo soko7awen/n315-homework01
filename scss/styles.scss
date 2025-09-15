@@ -109,7 +109,7 @@ nav {
 
     .info, .image-info {
         display: flex;
-        margin: 40px 0;
+        margin: 28px 0;
         .image {
             flex-grow: 0;
             flex-shrink: 0;
@@ -148,13 +148,33 @@ nav {
         flex-wrap: wrap;
         justify-content: center;
     }
-
     .project {
         width: 290px;
         img {
             aspect-ratio: 3/2;
             width: 280px;
             margin: 0 auto;
+            object-fit: cover;
+        }
+    }
+
+    .people-flex {
+        display: flex;
+        width: 75%;
+        margin: 40px auto;
+        gap: 100px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .person {
+        width: 205px;
+        img {
+            aspect-ratio: 1.07;
+            width: 200px;
+            border-radius: 60%;
+            margin: 0 auto;
+            margin-bottom: 5px;
             object-fit: cover;
         }
     }
