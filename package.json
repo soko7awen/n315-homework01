@@ -1,0 +1,19 @@
+{
+  "name": "firstproject",
+  "version": "1.0.0",
+  "description": "This is a starter app",
+  "license": "ISC",
+  "author": "hhamelin",
+  "type": "commonjs",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "compile:sass": "sass scss/styles.scss css/styles.css -w --no-source-map",
+    "serve": "live-server"
+  },
+  "devDependencies": {
+    "sass": "^1.92.1"
+  }
+}
