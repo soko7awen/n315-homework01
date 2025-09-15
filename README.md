@@ -1,9 +1,15 @@
-# This is a test project
+# N315 - Homework 01
 
-## This is an h2
+## "YukonStrings" homepage to showcase SCSS
 
-this is a paragraph
+[Web4 Link](https://in-info-web4.luddy.indianapolis.iu.edu/~hhamelin/Y4/FA25/N315/homework01)
 
-To run this application you need to install all the npm dependencies.
+Simple 4 page website to showcase the utlity of scss.
 
-`npm install`
+To develop for this site you do need to install scss.
+
+`npm i -g sass`
+
+And then to watch for changes:
+
+`sass -w scss/:css/`
