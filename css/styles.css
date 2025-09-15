@@ -113,6 +113,9 @@ nav ul li a {
   margin-right: 15px;
   background-color: rgba(148, 148, 148, 0.3137254902);
 }
+.content .info .image img, .content .image-info .image img {
+  border-radius: 40%;
+}
 .content .info .description h2, .content .image-info .description h2 {
   margin-bottom: 12px;
 }
@@ -159,6 +162,19 @@ nav ul li a {
   border-radius: 60%;
   margin: 0 auto;
   margin-bottom: 5px;
+  object-fit: cover;
+}
+.content .press-flex {
+  display: flex;
+  width: 75%;
+  margin: 40px auto;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+.content .press-image {
+  width: 400px;
+  margin: 0 auto;
   object-fit: cover;
 }
 

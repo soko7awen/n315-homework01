@@ -119,6 +119,10 @@ nav {
             border-radius: 40%;
             margin-right: 15px;
             background-color: #94949450;
+
+            img {
+                border-radius: 40%;
+            }
         }
         .description {
             h2 {
@@ -177,6 +181,20 @@ nav {
             margin-bottom: 5px;
             object-fit: cover;
         }
+    }
+
+    .press-flex {
+        display: flex;
+        width: 75%;
+        margin: 40px auto;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+    }
+    .press-image {
+        width: 400px;
+        margin: 0 auto;
+        object-fit: cover;
     }
 }
 
